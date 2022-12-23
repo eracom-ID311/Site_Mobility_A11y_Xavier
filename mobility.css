@@ -1,0 +1,144 @@
+/* Canyon fonts*/
+@import url("fonts/CanyonRFont/CanyonRFont.css");
+/* Marges */
+html,
+body {
+  margin: 0;
+}
+/* Utilitaire*/
+img,
+video {
+  max-width: 100%;
+}
+.startbox {
+  max-width: 120rem;
+}
+
+/* Typography*/
+body {
+  font-family: "CanyonR";
+  width: 100%;
+}
+
+/* header */
+header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.second {
+  background-color: black;
+}
+h1 {
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 100px;
+}
+h2 {
+  text-align: center;
+}
+header .startbox {
+  width: 100%;
+  height: auto;
+  color: white;
+}
+header .startbox img {
+  filter: invert(100%);
+}
+#VidDécors {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: contrast(50%);
+}
+
+/* intro */
+.Intro {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  margin: 10px;
+  display: inline-block;
+  width: 40rem;
+  color: white;
+}
+
+/*BIG*/
+.Big {
+  background-image: url(images/context.jpg);
+  background-repeat: round;
+}
+/* Section 1 */
+.Sec1 {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p1 {
+  margin-top: 10px;
+  padding: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 50rem;
+  border-radius: 5rem;
+}
+
+/* section 2 */
+.Sec2 {
+  display: flex;
+  justify-content: center;
+}
+.container2 {
+  color: white;
+  padding: 2rem;
+  margin: 2rem;
+  display: inline-block;
+  width: 30rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 5rem;
+}
+
+/* section 3 */
+.Sec3 {
+  display: flex;
+  justify-content: center;
+  width: 118rem;
+}
+
+.container3 {
+  display: inline-block;
+}
+
+/* section 4 */
+
+.Sec4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  background-color: black;
+}
+.container4 {
+  width: 50rem;
+}
+/* Footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0.1rem;
+}
+.Part2 {
+  width: 10rem;
+}
